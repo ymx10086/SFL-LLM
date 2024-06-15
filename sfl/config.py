@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 
-from transformers import PretrainedConfig
-
-data_root = '/data/stupidtree/data'
+data_root = './'
 
 dataset_cache_dir = f'{data_root}/sfl/datasets/'
 model_download_dir = f'{data_root}/sfl/models/'
