@@ -1,9 +1,13 @@
 
 <p align="left"><img src="./doc/img/logo.png" width=400></p>
 
-# SplitLLM: A Flexible Split Learning Framework
-SplitLLM is a Split Learning simulation framework designed for Large Language Models (LLMs). It enables flexible and scalable model fine-tuning under a split learning architecture. The framework is compatible with Hugging Face models and supports extensible integration of privacy attack experiments.
+# SplitLLM: Split Learning Framework for Privacy Attacks
+SplitLLM is a Split Learning simulation framework designed for Large Language Models (LLMs).
+It enables flexible and scalable model fine-tuning under a split learning architecture. 
+The framework is compatible with Hugging Face models.
 
+SplitLLM supports extensible integration of privacy attack experiments, including mainstream DRAs like DLG, TAG, LAMP. 
+The proposed Bidirectional Semi-white-box Reconstruction (BiSR) attack is also demonstrated in the example.
 
 ### Quick Start
 

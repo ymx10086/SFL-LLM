@@ -20,8 +20,8 @@ collect_all_layers=True
 
 
 model_names=('llama2')
-sip_inverter_dataset='sensireplaced'
-sfl_datasets=("gsm8k" "wikitext" "piqa" "codealpaca" "dialogsum" "sensimarked")
+sip_inverter_dataset='piqa'
+sfl_datasets=("piqa")
 exp_name='[EXP]BiSR'
 
 for model_name in "${model_names[@]}"; do
